@@ -142,7 +142,7 @@
         <tr>
             <td>
                 <form:label path="id">
-                    <spring:message text="id"/>
+                    <spring:message text="ID"/>
                 </form:label>
             </td>
             <td>
@@ -156,11 +156,267 @@
                 </form:label>
             </td>
             <td>
-                <form:select path="cardInterface">
-                    <form:option value="Asap">Asap</form:option>
-                    <form:option value="Kurwa">Kurwa</form:option>
-                    <form:option value="IamGod">IamGod</form:option>
-                </form:select>
+                <form:input path="cardInterface"/>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <form:label path="chipset">
+                    <spring:message text="Видеочипсет"/>
+                </form:label>
+            </td>
+            <td>
+                <form:input path="chipset"/>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <form:label path="gpuFrequency">
+                    <spring:message text="Частота графического процессора"/>
+                </form:label>
+            </td>
+            <td>
+                <form:input path="gpuFrequency"/>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <form:label path="technicalProcess">
+                    <spring:message text="Техпроцесс"/>
+                </form:label>
+            </td>
+            <td>
+                <form:input path="technicalProcess"/>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <form:label path="memoryAmount">
+                    <spring:message text="Объем видеопамяти"/>
+                </form:label>
+            </td>
+            <td>
+                <form:input path="memoryAmount"/>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <form:label path="memoryType">
+                    <spring:message text="Тип видеопамяти"/>
+                </form:label>
+            </td>
+            <td>
+                <form:input path="memoryType"/>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <form:label path="memoryFrequency">
+                    <spring:message text="Частота видеопамяти"/>
+                </form:label>
+            </td>
+            <td>
+                <form:input path="memoryFrequency"/>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <form:label path="interfaceWidth">
+                    <spring:message text="Разрядность шины видеопамяти"/>
+                </form:label>
+            </td>
+            <td>
+                <form:input path="interfaceWidth"/>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <form:label path="maximumResolution">
+                    <spring:message text="Максимальное разрешение"/>
+                </form:label>
+            </td>
+            <td>
+                <form:input path="maximumResolution"/>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <form:label path="directxVersion">
+                    <spring:message text="Версия DirectX"/>
+                </form:label>
+            </td>
+            <td>
+                <form:input path="directxVersion"/>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <form:label path="dviConnectors">
+                    <spring:message text="Разъемы DVI"/>
+                </form:label>
+            </td>
+            <td>
+                <form:input path="dviConnectors"/>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <form:label path="hdmiConnectors">
+                    <spring:message text="Разъемы HDMI"/>
+                </form:label>
+            </td>
+            <td>
+                <form:input path="hdmiConnectors"/>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <form:label path="hdmiVersion">
+                    <spring:message text="Версия разъема"/>
+                </form:label>
+            </td>
+            <td>
+                <form:input path="hdmiVersion"/>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <form:label path="dpConnectors">
+                    <spring:message text="Разъемы Display Port"/>
+                </form:label>
+            </td>
+            <td>
+                <form:input path="dpConnectors"/>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <form:label path="dpVersion">
+                    <spring:message text="Версия разъема Display Port"/>
+                </form:label>
+            </td>
+            <td>
+                <form:input path="dpVersion"/>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <form:label path="powerSupply">
+                    <spring:message text="Разъемы дополнительного питания"/>
+                </form:label>
+            </td>
+            <td>
+                <form:input path="powerSupply"/>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <form:label path="recPower">
+                    <spring:message text="Рекомендуемая мощность БП"/>
+                </form:label>
+            </td>
+            <td>
+                <form:input path="recPower"/>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <form:label path="powerConsum">
+                    <spring:message text="Максимальное энергопотребление"/>
+                </form:label>
+            </td>
+            <td>
+                <form:input path="powerConsum"/>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <form:label path="cardLength">
+                    <spring:message text="Длина видеокарты"/>
+                </form:label>
+            </td>
+            <td>
+                <form:input path="cardLength"/>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <form:label path="coolSys">
+                    <spring:message text="Система охлаждения"/>
+                </form:label>
+            </td>
+            <td>
+                <form:input path="coolSys"/>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <form:label path="cardWidth">
+                    <spring:message text="Ширина видеокарты"/>
+                </form:label>
+            </td>
+            <td>
+                <form:input path="cardWidth"/>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <form:label path="heatPipes">
+                    <spring:message text="Использование тепловых трубок"/>
+                </form:label>
+            </td>
+            <td>
+                <form:input path="heatPipes"/>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <form:label path="overClocked">
+                    <spring:message text="OverClocked Edition"/>
+                </form:label>
+            </td>
+            <td>
+                <form:input path="overClocked"/>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <form:label path="deliveryType">
+                    <spring:message text="Тип поставки"/>
+                </form:label>
+            </td>
+            <td>
+                <form:input path="deliveryType"/>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <form:label path="warranty">
+                    <spring:message text="Гарантия"/>
+                </form:label>
+            </td>
+            <td>
+                <form:input path="warranty"/>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <form:label path="webSite">
+                    <spring:message text="Сайт производителя"/>
+                </form:label>
+            </td>
+            <td>
+                <form:input path="webSite"/>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <form:label path="originCountry">
+                    <spring:message text="Страна производитель"/>
+                </form:label>
+            </td>
+            <td>
+                <form:input path="originCountry"/>
             </td>
         </tr>
 
