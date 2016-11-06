@@ -12,7 +12,7 @@ import ru.needforsite.gpushop.Model.GPU;
 import ru.needforsite.gpushop.Service.GPUService;
 
 /**
- * Created by igorfrolov on 04.11.16. test change
+ * Created by igorfrolov on 04.11.16.
  */
 @Controller
 public class GPUController {
