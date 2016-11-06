@@ -14,6 +14,8 @@
 <body>
 <h3>FrolovDev presents</h3>
 <br/>
+<h4>Welcome to my redirect page!</h4>
+<br/>
 <a href="<c:url value="/gpus"/>" target="_blank">GPU in database list</a>
 <br/>
 </body>
