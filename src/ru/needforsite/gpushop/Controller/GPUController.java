@@ -34,12 +34,13 @@ public class GPUController {
 
     @RequestMapping(value = "/gpus/add", method = RequestMethod.POST)
     public String addGpu(@ModelAttribute("GPU") GPU gpu){
-        if(gpu.getId() == 0){
+     /*   if(gpu.getId() == 0){
             this.gpuService.addGPU(gpu);
         }else {
             this.gpuService.updateGPU(gpu);
         }
-
+     */
+     this.gpuService.addGPU(gpu);
         return "redirect:/gpus";
     }
 
