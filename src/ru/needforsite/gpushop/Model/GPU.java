@@ -7,92 +7,92 @@ package ru.needforsite.gpushop.Model;
 import javax.persistence.*;
 
 @Entity
-@Table(name = "GpuTable")
+@Table(name = "gputable")
 public class GPU {
 
     @Id
     @Column(name = "id")
     private int id;
 
-    @Column(name = "Card_interface")
+    @Column(name = "card_interface")
     private String cardInterface;
 
-    @Column(name = "Chipset")
+    @Column(name = "chipset")
     private String chipset;
 
-    @Column(name = "GPU_frequency")
+    @Column(name = "gpu_frequency")
     private String gpuFrequency;
 
-    @Column(name = "Technical_process")
+    @Column(name = "technical_process")
     private String technicalProcess;
 
-    @Column(name = "Memory_amount")
+    @Column(name = "memory_amount")
     private String memoryAmount;
 
-    @Column(name = "Memory_type")
+    @Column(name = "memory_type")
     private String memoryType;
 
-    @Column(name = "Memory_frequency")
+    @Column(name = "memory_frequency")
     private String memoryFrequency;
 
-    @Column(name = "Interface_width")
+    @Column(name = "interface_width")
     private String interfaceWidth;
 
-    @Column(name = "Maximum_resolution")
+    @Column(name = "maximum_resolution")
     private String maximumResolution;
 
-    @Column(name = "DirectX_version")
+    @Column(name = "directx_version")
     private int directxVersion;
 
-    @Column(name = "DVI_connectors")
+    @Column(name = "dvi_connectors")
     private int dviConnectors;
 
-    @Column(name = "HDMI_connectors")
+    @Column(name = "hdmi_connectors")
     private int hdmiConnectors;
 
-    @Column(name = "HDMI_version")
+    @Column(name = "hdmi_version")
     private float hdmiVersion;
 
-    @Column(name = "Display_Port_connectors")
+    @Column(name = "display_port_connectors")
     private int dpConnectors;
 
-    @Column(name = "Display_port_version")
+    @Column(name = "display_port_version")
     private float dpVersion ;
 
-    @Column(name = "Power_supply")
+    @Column(name = "power_supply")
     private String powerSupply;
 
-    @Column(name = "Recommended_power")
+    @Column(name = "recommended_power")
     private String recPower;
 
-    @Column(name = "Power_consumption")
+    @Column(name = "power_consumption")
     private String powerConsum;
 
-    @Column(name = "Card_length")
+    @Column(name = "card_length")
     private String cardLength;
 
-    @Column(name = "Cooling_system")
+    @Column(name = "cooling_system")
     private String coolSys;
 
-    @Column(name = "Card_width")
+    @Column(name = "card_width")
     private String cardWidth;
 
-    @Column(name = "Heat_pipes")
+    @Column(name = "heat_pipes")
     private String heatPipes;
 
-    @Column(name = "OverClocked")
+    @Column(name = "overclocked")
     private String overClocked;
 
-    @Column(name = "Delivery_type")
+    @Column(name = "delivery_type")
     private String deliveryType;
 
-    @Column(name = "Warranty")
+    @Column(name = "warranty")
     private String warranty;
 
-    @Column(name = "WebSite")
+    @Column(name = "website")
     private String webSite;
 
-    @Column(name = "Origin_country")
+    @Column(name = "origin_country")
     private String originCountry;
 
     public int getId() {
