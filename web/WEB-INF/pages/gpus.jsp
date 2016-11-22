@@ -156,7 +156,11 @@
                 </form:label>
             </td>
             <td>
-                <form:input path="cardInterface"/>
+                <form:select path="cardInterface">
+                    <form:option value="PCI-E 3.0"/>
+                    <form:option value="PCI-E 2.0"/>
+                    <form:option value="PCI-E 2.1"/>
+                </form:select>
             </td>
         </tr>
         <tr>
@@ -166,7 +170,13 @@
                 </form:label>
             </td>
             <td>
-                <form:input path="chipset"/>
+                <form:select path="chipset">
+                    <form:option value="nVidia GeForce GTX960"/>
+                    <form:option value="nVidia GeForce GTX980TI"/>
+                    <form:option value="nVidia GeForce GTX1060"/>
+                    <form:option value="nVidia GeForce GTX1070"/>
+                    <form:option value="nVidia GeForce GTX1080"/>
+                </form:select>
             </td>
         </tr>
         <tr>
@@ -186,7 +196,11 @@
                 </form:label>
             </td>
             <td>
-                <form:input path="technicalProcess"/>
+                <form:select path="technicalProcess">
+                    <form:option value="14 nm"/>
+                    <form:option value="16 nm"/>
+                    <form:option value="28 nm"/>
+                </form:select>
             </td>
         </tr>
         <tr>
@@ -196,7 +210,14 @@
                 </form:label>
             </td>
             <td>
-                <form:input path="memoryAmount"/>
+                <form:select path="memoryAmount">
+                    <form:option value="1 GB"/>
+                    <form:option value="2 GB"/>
+                    <form:option value="3 GB"/>
+                    <form:option value="4 GB"/>
+                    <form:option value="6 GB"/>
+                    <form:option value="8 GB"/>
+                </form:select>
             </td>
         </tr>
         <tr>
@@ -206,7 +227,11 @@
                 </form:label>
             </td>
             <td>
-                <form:input path="memoryType"/>
+                <form:select path="memoryType">
+                    <form:option value="GDDR3"/>
+                    <form:option value="GDDR5"/>
+                    <form:option value="GDDR5X"/>
+                </form:select>
             </td>
         </tr>
         <tr>
@@ -226,7 +251,14 @@
                 </form:label>
             </td>
             <td>
-                <form:input path="interfaceWidth"/>
+                <form:select path="interfaceWidth">
+                    <form:option value="32 Bit"/>
+                    <form:option value="64 Bit"/>
+                    <form:option value="128 Bit"/>
+                    <form:option value="192 Bit"/>
+                    <form:option value="256 Bit"/>
+                    <form:option value="384 Bit"/>
+                </form:select>
             </td>
         </tr>
         <tr>
@@ -246,7 +278,10 @@
                 </form:label>
             </td>
             <td>
-                <form:input path="directxVersion"/>
+                <form:select path="directxVersion">
+                    <form:option value="11"/>
+                    <form:option value="12"/>
+                </form:select>
             </td>
         </tr>
         <tr>
@@ -256,7 +291,11 @@
                 </form:label>
             </td>
             <td>
-                <form:input path="dviConnectors"/>
+                <form:select path="dviConnectors">
+                    <form:option value="1"/>
+                    <form:option value="2"/>
+                    <form:option value="3"/>
+                </form:select>
             </td>
         </tr>
         <tr>
@@ -266,7 +305,11 @@
                 </form:label>
             </td>
             <td>
-                <form:input path="hdmiConnectors"/>
+                <form:select path="hdmiConnectors">
+                    <form:option value="1"/>
+                    <form:option value="2"/>
+                    <form:option value="3"/>
+                </form:select>
             </td>
         </tr>
         <tr>
@@ -286,7 +329,11 @@
                 </form:label>
             </td>
             <td>
-                <form:input path="dpConnectors"/>
+                <form:select path="dpConnectors">
+                    <form:option value="1"/>
+                    <form:option value="2"/>
+                    <form:option value="3"/>
+                </form:select>
             </td>
         </tr>
         <tr>
@@ -306,7 +353,13 @@
                 </form:label>
             </td>
             <td>
-                <form:input path="powerSupply"/>
+                <form:select path="powerSupply">
+                    <form:option value="6 pin"/>
+                    <form:option value="6+6 pin"/>
+                    <form:option value="6+8 pin"/>
+                    <form:option value="8 pin"/>
+                    <form:option value="8+8 pin"/>
+                </form:select>
             </td>
         </tr>
         <tr>
@@ -346,7 +399,9 @@
                 </form:label>
             </td>
             <td>
-                <form:input path="coolSys"/>
+                <form:select path="coolSys">
+                    <form:option value="active"/>
+                </form:select>
             </td>
         </tr>
         <tr>
@@ -366,7 +421,10 @@
                 </form:label>
             </td>
             <td>
-                <form:input path="heatPipes"/>
+                <form:select path="heatPipes">
+                    <form:option value="yes"/>
+                    <form:option value="no"/>
+                </form:select>
             </td>
         </tr>
         <tr>
@@ -376,7 +434,10 @@
                 </form:label>
             </td>
             <td>
-                <form:input path="overClocked"/>
+                <form:select path="overClocked">
+                    <form:option value="yes"/>
+                    <form:option value="no"/>
+                </form:select>
             </td>
         </tr>
         <tr>
@@ -386,7 +447,11 @@
                 </form:label>
             </td>
             <td>
-                <form:input path="deliveryType"/>
+                <form:select path="deliveryType">
+                    <form:option value="lite"/>
+                    <form:option value="oem"/>
+                    <form:option value="retail"/>
+                </form:select>
             </td>
         </tr>
         <tr>
@@ -396,7 +461,11 @@
                 </form:label>
             </td>
             <td>
-                <form:input path="warranty"/>
+                <form:select path="warranty">
+                    <form:option value="1 year"/>
+                    <form:option value="2 years"/>
+                    <form:option value="3 years"/>
+                </form:select>
             </td>
         </tr>
         <tr>
